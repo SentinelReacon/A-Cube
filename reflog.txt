@@ -1,0 +1,37 @@
+8f6fa32 HEAD@{0}: commit: Add git graph
+405d842 HEAD@{1}: rebase (finish): returning to refs/heads/main
+405d842 HEAD@{2}: rebase (pick): Add gitignore file
+c0bfc3e HEAD@{3}: rebase (start): checkout origin
+5c648e1 HEAD@{4}: commit: Add gitignore file
+29a9add HEAD@{5}: pull origin main: Fast-forward
+5df60e8 HEAD@{6}: checkout: moving from colors to main
+dd46200 HEAD@{7}: rebase (continue) (finish): returning to refs/heads/colors
+dd46200 HEAD@{8}: commit: Fix conflicts
+6523787 HEAD@{9}: rebase (start): checkout origin/main
+7ac3fcc HEAD@{10}: commit: Add colorama support
+5df60e8 HEAD@{11}: checkout: moving from main to colors
+5df60e8 HEAD@{12}: pull origin main: Fast-forward
+7ae8f6b HEAD@{13}: pull origin main: Fast-forward
+d5bb317 HEAD@{14}: checkout: moving from revert-7-fix1 to main
+cedefd3 HEAD@{15}: commit: Fix delete task function
+a3fa1c5 HEAD@{16}: checkout: moving from main to revert-7-fix1
+d5bb317 HEAD@{17}: pull origin main: Fast-forward
+e4813dd HEAD@{18}: checkout: moving from fix1 to main
+ba6bff4 HEAD@{19}: rebase (continue) (finish): returning to refs/heads/fix1
+ba6bff4 HEAD@{20}: rebase (continue): Add code for user option to display list
+99e4b99 HEAD@{21}: rebase (pick): Fix listting code
+80fc136 HEAD@{22}: rebase (start): checkout origin/main
+11351e7 HEAD@{23}: commit: Add code for user option to display list
+b26ca3e HEAD@{24}: Branch: renamed refs/heads/change1 to refs/heads/fix1
+b26ca3e HEAD@{26}: commit: Fix listting code
+e4813dd HEAD@{27}: checkout: moving from main to change1
+e4813dd HEAD@{28}: pull origin main: Fast-forward
+d5c578e HEAD@{29}: checkout: moving from add_task to main
+f1117f3 HEAD@{30}: commit: Add code for adding task to todo list
+d5c578e HEAD@{31}: checkout: moving from main to add_task
+d5c578e HEAD@{32}: pull origin main: Fast-forward
+806e798 HEAD@{33}: checkout: moving from readme_update to main
+c035e12 HEAD@{34}: commit: Add repo details
+457d1ff HEAD@{35}: commit: Add group details to readme
+806e798 HEAD@{36}: checkout: moving from main to readme_update
+806e798 HEAD@{37}: clone: from https://github.com/SentinelReacon/A-Cube.git

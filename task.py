@@ -7,7 +7,13 @@ class ToDoList:
         pass
 
     def delete_task(self, task_id):
-        pass
+        # Deleting a particular key from the dictionary
+        if task_id not in self.task_details.keys():
+            print("No Such task found")
+            return
+        self.task_completed[len(self.task_completed)] = self.task_details[task_id]
+        del self.task_details[task_id]
+        print("Task deleted Successfully")
 
     def mark_complete(self, task_id):
         pass

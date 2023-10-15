@@ -6,9 +6,11 @@ class ToDoList:
     def add_task(self, task):
         key = len(self.task_details)
         self.task_details[key+1] = task
+        print("Task added Successfully")
 
     def delete_task(self, task_id):
         # Deleting a particular key from the dictionary
+        self.list_task()
         if task_id not in self.task_details.keys():
             print("No Such task found")
             return

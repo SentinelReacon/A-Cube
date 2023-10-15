@@ -1,3 +1,5 @@
+# This is the repo for the GIT project for STT-2.
+
 **Group Name: A-Cube**
 
 **Members:**

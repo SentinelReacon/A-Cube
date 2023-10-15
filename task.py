@@ -1,7 +1,7 @@
 class ToDoList:
     def __init__(self) -> None:
         self.task_details = {} # task_id: task_name pair
-        self.task_completed = {} # When completed it remove task from task details add it to task completed
+        # self.task_completed = {} # When completed it remove task from task details add it to task completed
 
     def add_task(self, task):
         key = len(self.task_details)
@@ -12,13 +12,9 @@ class ToDoList:
         if task_id not in self.task_details.keys():
             print("No Such task found")
             return
-        self.task_completed[len(self.task_completed)] = self.task_details[task_id]
         del self.task_details[task_id]
         print("Task deleted Successfully")
 
-    def mark_complete(self, task_id):
-        pass
-
     def list_task(self):
-        for i, task in enumerate(self.task_details, start=1):
-            print(f"{i}. {task}")
+        for i, task in self.task_details.items():
+            print(f"{i}. Title: {task}")

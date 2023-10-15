@@ -19,6 +19,7 @@ class ToDoList:
     def mark_complete(self, task_id):
         pass
 
-    def list_task(self):
-        for i, task in enumerate(self.task_details, start=1):
-            print(f"{i}. {task}")
+    def list_task():
+        for i, task in enumerate(tasks, start=1):
+            status = "Done" if task["completed"] else "Not Done"
+            print(f"{i}. Title: {task['title']}, Description: {task['description']}, Status: {status}")

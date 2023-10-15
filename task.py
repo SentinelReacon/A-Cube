@@ -4,7 +4,8 @@ class ToDoList:
         self.task_completed = {} # When completed it remove task from task details add it to task completed
 
     def add_task(self, task):
-        pass
+        key = len(self.task_details)
+        self.task_details[key+1] = task
 
     def delete_task(self, task_id):
         pass

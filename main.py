@@ -1,5 +1,6 @@
 from task import ToDoList
 
+
 todo = ToDoList()
 
 while True:
@@ -14,3 +15,5 @@ while True:
     if usr_input == 1:
         task_input = input("Enter the task details")
         todo.add_task(task_input)
+    elif user_input==2:
+        todolist.list_task()

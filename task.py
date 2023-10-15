@@ -10,7 +10,7 @@ class ToDoList:
 
     def delete_task(self, task_id):
         # Deleting a particular key from the dictionary
-        self.list_task()
+        # self.list_task()
         if task_id not in self.task_details.keys():
             print("No Such task found")
             return

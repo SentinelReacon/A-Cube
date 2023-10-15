@@ -1,3 +1,4 @@
+from colorama import Fore, Back, Style
 class ToDoList:
     def __init__(self) -> None:
         self.task_details = {} # task_id: task_name pair
@@ -10,13 +11,13 @@ class ToDoList:
 
     def delete_task(self, task_id):
         # Deleting a particular key from the dictionary
-        # self.list_task()
         if task_id not in self.task_details.keys():
-            print("No Such task found")
+            print(Fore.YELLOW + "No Such task found")
             return
         del self.task_details[task_id]
-        print("Task deleted Successfully")
+        print(Fore.YELLOW + "Task deleted Successfully")
 
     def list_task(self):
+        print(Fore.LIGHTGREEN_EX + "Task details")
         for i, task in self.task_details.items():
-            print(f"{i}. Title: {task}")
+            print(Fore.GREEN + f"{i}. Title: {task}")

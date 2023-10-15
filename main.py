@@ -20,6 +20,7 @@ while True:
         todo.list_task()
 
     elif usr_input == 3:
+        todo.list_task()
         i = int(input(Fore.RED + "Enter task id:"))
         todo.delete_task(i)
 
